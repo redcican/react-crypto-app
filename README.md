@@ -6,4 +6,4 @@
 * Provide latest news of crypto 
 * Provide details for top 100 popular cryptocurrencies
 
-![Cryptoverse](public\main.jpg)
+![Cryptoverse](public/main.jpg)
