@@ -27,7 +27,7 @@ const CryptoDetails = () => {
   const time = ['3h', '24h', '7d', '30d', '1y', '3m', '3y', '5y'];
 
   const stats = [
-    { title: 'Price to USD', value: `$ ${data?.data?.coin.price && millify(data?.data?.coin.price,{ precision: 4)}`, icon: <DollarCircleOutlined /> },
+    { title: 'Price to USD', value: `$ ${data?.data?.coin.price && millify(data?.data?.coin.price,{precision: 4})}`, icon: <DollarCircleOutlined /> },
     { title: 'Rank', value: data?.data?.coin.rank, icon: <NumberOutlined /> },
     { title: '24h Volume', value: `$ ${data?.data?.coin['24hVolume'] && millify(data?.data?.coin['24hVolume'])}`, icon: <ThunderboltOutlined /> },
     { title: 'Market Cap', value: `$ ${data?.data?.coin.marketCap && millify(data?.data?.coin.marketCap)}`, icon: <DollarCircleOutlined /> },
